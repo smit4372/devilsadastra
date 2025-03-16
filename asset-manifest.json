@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rocketry-club/static/css/main.55035763.css",
+    "main.js": "/rocketry-club/static/js/main.e4ecb2bb.js",
+    "static/js/453.b1fdbac3.chunk.js": "/rocketry-club/static/js/453.b1fdbac3.chunk.js",
+    "static/media/hero.jpg": "/rocketry-club/static/media/hero.7b697bf15f8c7f69bb23.jpg",
+    "index.html": "/rocketry-club/index.html",
+    "main.55035763.css.map": "/rocketry-club/static/css/main.55035763.css.map",
+    "main.e4ecb2bb.js.map": "/rocketry-club/static/js/main.e4ecb2bb.js.map",
+    "453.b1fdbac3.chunk.js.map": "/rocketry-club/static/js/453.b1fdbac3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55035763.css",
+    "static/js/main.e4ecb2bb.js"
+  ]
+}
