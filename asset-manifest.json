@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rocketry-club/static/css/main.55035763.css",
-    "main.js": "/rocketry-club/static/js/main.e4ecb2bb.js",
-    "static/js/453.b1fdbac3.chunk.js": "/rocketry-club/static/js/453.b1fdbac3.chunk.js",
-    "static/media/hero.jpg": "/rocketry-club/static/media/hero.7b697bf15f8c7f69bb23.jpg",
-    "index.html": "/rocketry-club/index.html",
-    "main.55035763.css.map": "/rocketry-club/static/css/main.55035763.css.map",
-    "main.e4ecb2bb.js.map": "/rocketry-club/static/js/main.e4ecb2bb.js.map",
-    "453.b1fdbac3.chunk.js.map": "/rocketry-club/static/js/453.b1fdbac3.chunk.js.map"
+    "main.css": "/devilsadastra/static/css/main.ce43d3c8.css",
+    "main.js": "/devilsadastra/static/js/main.e9d5e649.js",
+    "static/js/453.b1fdbac3.chunk.js": "/devilsadastra/static/js/453.b1fdbac3.chunk.js",
+    "static/media/hero.jpg": "/devilsadastra/static/media/hero.7b697bf15f8c7f69bb23.jpg",
+    "index.html": "/devilsadastra/index.html",
+    "main.ce43d3c8.css.map": "/devilsadastra/static/css/main.ce43d3c8.css.map",
+    "main.e9d5e649.js.map": "/devilsadastra/static/js/main.e9d5e649.js.map",
+    "453.b1fdbac3.chunk.js.map": "/devilsadastra/static/js/453.b1fdbac3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55035763.css",
-    "static/js/main.e4ecb2bb.js"
+    "static/css/main.ce43d3c8.css",
+    "static/js/main.e9d5e649.js"
   ]
 }
