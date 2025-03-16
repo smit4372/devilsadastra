@@ -1,0 +1,60 @@
+/* src/pages/Team.css */
+
+.team-container {
+  margin: 2rem auto;
+  margin-top: 12vh; /* Push down if you have a fixed navbar */
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.team-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Grid layout for team members */
+.team-grid {
+  display: grid;
+  gap: 2rem;
+  /* 3 columns if enough space, otherwise auto-fit */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Each member card */
+.team-member {
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Circular image styling */
+.team-member-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Role styling */
+.team-member .role {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+/* LinkedIn icon link */
+.linkedin-link {
+  color: #0077B5; /* LinkedIn blue */
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.linkedin-link:hover {
+  color: #005582; /* Darker LinkedIn blue on hover */
+}

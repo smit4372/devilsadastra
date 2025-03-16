@@ -1,0 +1,68 @@
+/* src/pages/Projects.css */
+
+/* Container for the entire Projects page */
+.projects-container {
+  /* Adjust top margin if you have a fixed navbar */
+  margin-top: 12vh;
+  margin-bottom: 10vh;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Timeline styling */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* Vertical timeline line */
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 20%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #2d353c;
+}
+
+/* Each timeline item */
+.timeline li {
+  position: relative;
+  padding: 1rem 0;
+}
+
+/* Date positioned on the left */
+.timeline-date {
+  position: absolute;
+  left: 0;
+  width: 18%;
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Milestone content positioned to the right */
+.timeline-content {
+  margin-left: 22%;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  margin: 0;
+}

@@ -1,0 +1,43 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;         /* Fixed height */
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 0 1rem;      /* Horizontal padding only */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  max-height: 140px;  /* Increase this to fill the navbar's height */
+  width: auto;   /* Maintain aspect ratio */
+  /* Remove transform scale if you want to use the actual height */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;    /* Adjusted text size for better balance */
+  line-height: 60px;  /* Center text vertically within the navbar */
+  padding: 0 0.5rem;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}

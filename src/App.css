@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+
+/* ----- Global Resets & Basics ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f5f5f5;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ----- Navbar ----- */
+.navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .logo h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.navbar .nav-links a:hover {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+/* ----- Footer ----- */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* ----- Home Page ----- */
+.home-container {
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.hero-image {
+  background-color: #ddd;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* ----- Sections ----- */
+.welcome-note,
+.about-container,
+.projects-container,
+.contact-container,
+.team-container {
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.social-handles {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem 0;
 }
